@@ -474,13 +474,13 @@ nav {
 
 }
 
-.quote-icon {
+.quote-box {
     font-size: 32px;
     font-weight: bold;
     color: #ccc;
 }
 
-.quote-icon.right {
+.quote-box.right {
     float: right;
 }
 
@@ -496,8 +496,6 @@ nav {
     display: flex;
     align-items: center;
     margin-top: 10px;
-
-
 }
 
 .testimonial-author img {
@@ -518,4 +516,101 @@ nav {
     font-size: 14px;
     color: #777;
     margin: 0;
+}
+
+.blog{
+   margin-top: 50px;
+   /* width: 100%; */
+}
+
+.our-blog{
+    width: 100%;
+    margin-left: 80px;
+}
+
+.blog .our-blog span{
+    font-weight: 200;
+    margin-left: 105px;
+}
+
+.blog .our-blog h3{
+    margin-left: 105px;
+    font-weight: 800;
+}
+
+.blog-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+    width: 80%;
+    margin: 30px 155px;
+    overflow: hidden;
+}
+
+.our-image{
+  position: relative;
+  width: 100%;
+  height: auto; 
+ font-size: 16px;
+}
+
+.our-image img{
+    height: 100%;
+}
+
+.show-text{
+    position: absolute;
+    text-align: left;
+    font-size: 16px;
+    /* top: 110px; */
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    /* filter: blur(5px); */
+    background: #08568A;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.hide-text{
+    text-align: left;
+    position: absolute;
+    font-size: 12px;
+    opacity: 0;
+    bottom: 0px;
+    background: #08568A;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);  */
+  padding: 20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    opacity: 0;
+    padding: 5px 0;
+    color: white;
+    gap: 5px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;  
+}
+
+.button .read-arrow{
+    margin-left: 5px;
+}
+
+.our-image:hover .hide-text {
+    opacity: 1;
+}
+
+.our-image:hover .button{
+    opacity: 1;
 }
