@@ -518,27 +518,27 @@ nav {
     margin: 0;
 }
 
-.blog{
-   margin-top: 50px;
-   /* width: 100%; */
+.blog {
+    margin-top: 50px;
+    /* width: 100%; */
 }
 
-.our-blog{
+.our-blog {
     width: 100%;
     margin-left: 80px;
 }
 
-.blog .our-blog span{
+.blog .our-blog span {
     font-weight: 200;
     margin-left: 105px;
 }
 
-.blog .our-blog h3{
+.blog .our-blog h3 {
     margin-left: 105px;
     font-weight: 800;
 }
 
-.blog-info{
+.blog-info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -549,18 +549,18 @@ nav {
     overflow: hidden;
 }
 
-.our-image{
-  position: relative;
-  width: 100%;
-  height: auto; 
- font-size: 16px;
+.our-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
 }
 
-.our-image img{
+.our-image img {
     height: 100%;
 }
 
-.show-text{
+.show-text {
     position: absolute;
     text-align: left;
     font-size: 16px;
@@ -571,20 +571,21 @@ nav {
     padding: 30px;
     /* filter: blur(5px); */
     background: #08568A;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
-.hide-text{
+.hide-text {
     text-align: left;
     position: absolute;
     font-size: 12px;
     opacity: 0;
     bottom: 0px;
     background: #08568A;
-  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);  */
-  padding: 20px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);  */
+    padding: 20px;
 }
-.button{
+
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -597,13 +598,14 @@ nav {
     color: white;
     gap: 5px;
 }
-.button a{
+
+.button a {
     text-decoration: none;
     color: white;
-    font-size: 18px;  
+    font-size: 18px;
 }
 
-.button .read-arrow{
+.button .read-arrow {
     margin-left: 5px;
 }
 
@@ -611,6 +613,60 @@ nav {
     opacity: 1;
 }
 
-.our-image:hover .button{
+.our-image:hover .button {
     opacity: 1;
+}
+
+.view-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.view-post a {
+    text-decoration: none;
+    background: #08568A;
+    color: white;
+    padding: 10px 15px;
+    width: 66px;
+}
+
+.view-post a:hover {
+    color: gold;
+}
+
+.priority-section {
+    background-color: #f9f9f9;
+    margin: 50px auto;
+    text-align: center;
+    border-bottom: 6px solid #c29625;
+    width: 100%;
+    height: 330px;
+}
+
+.divider {
+    width: 2px;
+    height: 50px;
+    background-color: #000;
+    margin: 0 auto 20px;
+}
+
+.priority-text {
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+    margin: 20px 0 30px;
+}
+
+.priority-button {
+    font-weight: bold;
+    color: #fff;
+    background-color: #08568A;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.priority-button:hover {
+    background-color: gold;
 }
